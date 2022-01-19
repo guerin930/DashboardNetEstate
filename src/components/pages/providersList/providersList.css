@@ -1,0 +1,32 @@
+.providersList {
+    flex: 4;
+    background-color: rgba(246, 251, 253, 1);
+}
+
+.providersListProviders {
+    display: flex;
+    align-items: center;
+}
+
+.providersListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.providersListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    margin-right: 20px;
+}
+
+.providersListDel {
+    color: tomato;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 24px;
+    color: #042E15;
+    cursor: pointer;
+}
+
+.topRight {
+    display: flex;
+    text-align: left;
+}
+
+.topLeft {
+    display: flex;
+}
+
+
+.topbarLoginContainer {
+    position: relative;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.topbarLogo {
+    width: 35px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.DashboardVersion {
+text-align: left;
+align-items: center;
+margin-right: 900px;
+margin-top: 15px;
+
+}
+.topbarIcon {
+    cursor: pointer;
+}
