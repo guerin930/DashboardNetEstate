@@ -45,7 +45,7 @@ export default function UserList() {
             <DataGrid
                 rows={usersRows}
                 columns={columns}
-                pageSize={5}
+                pageSize={10}
                 rowsPerPageOptions={[5]}
                 checkboxSelection
             />

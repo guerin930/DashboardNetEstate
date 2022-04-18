@@ -251,9 +251,20 @@ export const usersRows = [
   { id: 3, firstName: 'Larry', email: 'Larry@gmail.com', password: '12345', role: 'user' },
   { id: 4, firstName: 'Magui', email: 'Magui@gmail.com', password: '12345', role: 'user' },
   { id: 5, firstName: 'Rick', email: 'Rick@gmail.com', password: '12345', role: 'user' },
-  { id: 6, firstName: 'Negan', email: 'Negan@gmail.com', password: '12345', role: 'user' },{ id: 1, firstName: 'Snow', email: 'Jon@gmail.com', password: '12345', role: 'user' },
+  { id: 6, firstName: 'Negan', email: 'Negan@gmail.com', password: '12345', role: 'user' },
   { id: 7, firstName: 'Ulrich', email: 'ulrich@gmail.com', password: '12345', role: 'user' },
   { id: 8, firstName: 'Claude', email: 'claude@gmail.com', password: '12345', role: 'user' },
   { id: 9, firstName: 'Sho', email: 'sho@gmail.com', password: '12345', role: 'user' },
   { id: 10, firstName: 'Dwane', email: 'dwane@gmail.com', password: '12345', role: 'user' }        
+];
+
+export const featuresRows = [
+  { id: 1, libelle: 'Maison' },
+  { id: 2, libelle: 'Appartement' },
+  { id: 3, libelle: 'Salle de fète' },
+  { id: 4, libelle: 'Chambre meublé' },
+  { id: 5, libelle: 'Studio' },
+  { id: 6, libelle: 'Terrain' },
+  { id: 7, libelle: 'Immeuble' },   
+  { id: 8, libelle: 'Bureau' }
 ];

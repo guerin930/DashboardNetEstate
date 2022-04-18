@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import "./user.css";
 import { PermIdentity, MailOutline, VpnKeyOutlined, Accessibility, Publish } from "@material-ui/icons"
 import { Link } from 'react-router-dom';
@@ -7,6 +7,7 @@ import { usersRows } from '../../../BaordData';
 export default function User() {
     const [data, setData] = useState(usersRows);
 
+    //recuperer l'id de l'utilisateur selectionner
     /^\/user\/(\d)$/.exec(window.location.pathname);
     let uid = parseInt(RegExp.$1)-1 ;
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./newUser.css";
+import { AddAPhoto, Publish } from '@material-ui/icons';
 
 export default function NewUser() {
     return (
@@ -29,6 +30,14 @@ export default function NewUser() {
                         <option value="user">Utilisateur</option>
                         <option value="admin">Administrateur</option>
                     </select>
+                </div>
+                <div className="newUserItem">
+                <label>Photo de profil</label>
+                    <div className="userUpdateUpload">
+                        <AddAPhoto className="userUpdateImg" />
+                        <label htmlFor='file'><Publish className='userUpdateIcon' /></label>
+                        <input type="file" id='file' style={{ display: "none" }} />
+                    </div>
                 </div>
                 <button className="newUserButton">Enregistrer</button>
             </form>

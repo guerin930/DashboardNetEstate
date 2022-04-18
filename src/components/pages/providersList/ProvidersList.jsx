@@ -14,9 +14,9 @@ export default function ProvidersList() {
     }
 
     const columns = [
-        { field: 'id', headerName: 'ID', width: 90 },
+        { field: 'id', headerName: 'ID', width: 100 },
         {
-            field: 'user', headerName: 'User', width: 130, renderCell: (params) => {
+            field: 'user', headerName: 'Username', width: 200, renderCell: (params) => {
                 return (
                     <div className='providersListProviders'>
                         <img src={params.row.avatar} alt='' className='providersListImg' />
@@ -25,10 +25,10 @@ export default function ProvidersList() {
                 )
             }
         },
-        { field: 'firstName', headerName: 'First name', width: 130 },
-        { field: 'email', headerName: 'Email', width: 130 },
-        { field: 'password', headerName: 'Password', width: 130 },
-        { field: 'tel', headerName: 'Tel', width: 95, type: "number" },
+        { field: 'firstName', headerName: 'First name', width: 150 },
+        { field: 'email', headerName: 'Email', width: 150 },
+        { field: 'password', headerName: 'Password', width: 90 },
+        { field: 'tel', headerName: 'Tel', width: 120, type: "number" },
         { field: 'cni', headerName: 'CNI', width: 130, type: "number" },
         { field: 'role', headerName: 'Role', width: 130 },
         {
@@ -55,7 +55,7 @@ export default function ProvidersList() {
             <DataGrid
                 rows={providersRows}
                 columns={columns}
-                pageSize={8}
+                pageSize={10}
                 rowsPerPageOptions={[8]}
                 checkboxSelection
                 disableSelectionOnClick
