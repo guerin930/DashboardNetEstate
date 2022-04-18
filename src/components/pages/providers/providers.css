@@ -1,0 +1,131 @@
+.provider {
+    flex: 4;
+    padding: 20px;
+    background-color: rgba(246, 251, 253, 1);
+}
+.providerTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.providerAddButton {
+    border-radius: 5px;
+    border: none;
+    background-color: teal;
+    color: white;
+    width: 80px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.providerContainer {
+    display: flex;
+    margin-top: 20px;
+}
+.providerShow {
+    flex: 1;
+    padding: 20px;
+    box-shadow: -2px 6px 8px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 6px 8px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 6px 8px -3px rgba(0,0,0,0.75);
+    background-color: white;
+}
+.providerShowTop {
+    display: flex;
+    align-items: center;
+}
+.providerShowTopTitle {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+.providerShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius:50px;
+    object-fit: cover;
+}
+.providerShowUsername {
+    margin-right: 10px;
+    font-weight: 600;
+}
+.providerShowUserTitle {
+    font-weight: 300;
+}
+.providerShowButton {
+    margin-top: 20px;
+}
+.providerShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+.providerShowInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.providerShowIcon {
+    font-size: 16px !important;
+}
+.providerShowInfoTitle {
+    margin-left: 10px;
+}
+.providerUpdate {
+    flex: 2;
+    padding: 20px;
+    box-shadow: -2px 6px 8px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 6px 8px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 6px 8px -3px rgba(0,0,0,0.75);
+    margin-left: 20px;
+    background-color: white;
+}
+.providerUpdateTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+.providerUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.providerUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.providerUpdateInput {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 250px;
+    height: 30px;
+}
+.providerUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.providerUpdateUpload {
+    display: flex;
+    align-items: center;
+}
+.providerUpdateImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.providerUpdateIcon {
+    cursor: pointer;
+}
+.providerUpdateButton {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: indigo;
+    font-weight: 600;
+    color: white;
+}
